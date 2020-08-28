@@ -19,7 +19,6 @@ input {
     width: 584px;
     align-self: center;
     margin: 20vh auto 0;
-    height: 60vh;
     text-align: center;
 }
 
@@ -113,15 +112,31 @@ input {
 }
 
 .footer--wrapper {
-    padding: 0px 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     background-color: lightgrey;
 }
 
 .footer__list {
+    padding: 0px;
     display: flex;
     list-style: none;
 }
 
-.footer__item {
+.footer__row * {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding: 0px 30px;
+}
+
+.footer__item:not(:first-child) {
     padding-left: 15px;
 }
