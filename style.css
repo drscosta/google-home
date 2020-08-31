@@ -55,25 +55,26 @@ input {
     border: 1px solid #e4e7ed;
     padding: 0.4vw 1.3vw 0.4vw 1.3vw;
     border-radius: 4px;
-    color: black;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .navbar--wrapper {
     margin: 0;
-    padding: 0px 30px;
     width: 100%;
-    color: black;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .navbar__list {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     list-style: none;
     align-items: center;
 }
 
 .navbar__list > .navbar__item, .navbar__button {
     padding-left: 15px;
+    padding-right: 30px;
+    backg
 }
 
 .navbar__list .navbar__item a {
@@ -94,7 +95,7 @@ input {
     font-weight: bold;
     outline: none;
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
-    background: linear-gradient(top,#4387fd,#4683ea);
+    background: #4285f4;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 6px;
